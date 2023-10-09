@@ -2,11 +2,11 @@ import React from 'react'
 
 const Second = () => {
   return (
-    <div className='w-full h-screen   flex  flex-col items-center justify-evenly gap-4'>
-      <div className='w-[95%] h-[59%] flex items-center justify-center flex-col gap-4 mt-2'>
+    <div className='w-full flex p-4 flex-col items-center justify-evenly gap-4 mt-[6rem] md:mt-0'>
+      <div className='md:w-[95%] md:h-[59%] flex items-center justify-center flex-col gap-4 mt-2'>
         <span className='text-[20px] font-bold'>Our Clients</span>
-        <span className='text-[14px] font-medium'>we have been working with some fortune 500+clients</span>
-         <div className='w-[80%] h-[28%]  flex flex-row gap-20 mt-10'>
+        <span className='text-[14px] font-medium text-center'>we have been working with some fortune 500+clients</span>
+         <div className='w-[80%] items-center justify-center  flex flex-row flex-wrap gap-4 mt-10'>
          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
   <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
 </svg>
@@ -52,17 +52,17 @@ const Second = () => {
          
 
 </div>
-<div className='w-[40%] h-[40%]  flex items-center justify-center flex-col '>
-  <span className='text-[19px] font-bold'>Manage your entire community</span>
-  <span className='text-[19px] font-bold'>in a single system</span>
+<div className='md:w-[40%] md:h-[40%] w-full flex items-center justify-center flex-col '>
+  <span className='text-[16px] font-bold'>Manage your entire community</span>
+  <span className='text-[14px] font-bold'>in a single system</span>
   <span className='text-[14px] font-medium '>who is Nextcent suitable for?</span>
 
 
 </div>
 </div>
 
-  <div className='w-[95%] h-[59%] flex flex-row items-center justify-evenly gap-3' >
-    <div className='w-[20%] h-[85%] flex flex-col items-center justify-center'>
+  <div className=' md:w-[95%] md:h-[59%]  flex flex-col w-full md:flex-row items-center md:justify-evenly gap-5 md:gap-3' >
+    <div className=' flex flex-col items-center justify-center'>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-9">
   <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
 </svg>
@@ -80,7 +80,7 @@ const Second = () => {
 
 
     </div>
-    <div className='w-[20%] h-[85%] flex flex-col items-center justify-center'>
+    <div className='md:w-[20%] md:h-[85%] w-full  flex flex-col items-center justify-center'>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-9">
   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z" />
 </svg>
@@ -96,7 +96,7 @@ const Second = () => {
 
 
     </div>
-    <div className='w-[20%] h-[85%] flex flex-col items-center justify-center'>
+    <div className='md:w-[20%] md:h-[85%]  w-full flex flex-col items-center justify-center'>
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-9">
   <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z" />
 </svg>

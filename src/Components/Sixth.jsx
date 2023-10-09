@@ -2,17 +2,20 @@ import React from 'react'
 
 const Sixth = () => {
   return (
-    <div className="w-full p-4 h-screen mt-12 gap-2 justify-evenly items-center flex flex-row bg-slate-200 ">
+    <div className="w-full p-4 md:h-screen md:mt-12 gap-2 md:justify-evenly items-center flex md:flex-row flex-col bg-slate-200 mt-[2rem]">
     
-      <div className='flex   items-center  justify-evenly  w-[35%] h-[90%]  '>
-      <img className=' object-cover w-[59%] h-[66%] rounded-lg  mr-12 ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQqx70BUgZgFiVACVd_hYCchUVEZWuo3KBw&usqp=CAU" alt="" />
+      <div className='flex   items-center  justify-evenly  md:w-[35%] md:h-[90%]  '>
+      <img className=' object-cover w-full md:w-[59%] md:h-[66%] rounded-lg  md:mr-12 ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQqx70BUgZgFiVACVd_hYCchUVEZWuo3KBw&usqp=CAU" alt="" />
       </div> 
-      <div className='flex       mt-7 justify-center flex-col w-[46%] h-[90%]  '>
+      <div className='flex  mt-7 justify-center flex-col w-full md:w-[46%] md:h-[90%]  '>
       <span className='text-[16px]   '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi fuga dolores sint. Tempore eos omnis, natus ex libero esse aliquam, delectus accusamus nam non explicabo, quaerat minima. Odio, ratione aperiam.</span>
       <span className='text-[22px] font-bold  text-green-500 '>Tim smith</span>
       <span className='text-[16px] text-black'> Britsh Dragon boat racing association</span>
       
-      <div className='flex       mt-7   w-[96%] h-[20%]   items-center justify-evenly flex-row gap-2'>
+      <div className='flex mt-7 md:w-[96%] md:h-[20%]  items-center justify-evenly  flex-col md:flex-row gap-2'>
+
+      <div className='flex'>
+
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-12">
   <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
 </svg>
@@ -31,10 +34,23 @@ const Sixth = () => {
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-12">
   <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z" />
 </svg>
+      </div>
+<div className='flex'>
+
+
+<div className=" flex items-center justify-center ">
 <span className='text-[20px] font-bold text-green-600'>Meet all customers</span>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-green-600 mt-2">
   <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z" clip-rule="evenodd" />
 </svg>
+
+</div>
+</div>
+{/* <span className='text-[20px] font-bold hidden md:block text-green-600'>Meet all customers</span> */}
+{/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 hidden md:block text-green-600 mt-2">
+  <path fill-rule="evenodd" d="M16.72 7.72a.75.75 0 011.06 0l3.75 3.75a.75.75 0 010 1.06l-3.75 3.75a.75.75 0 11-1.06-1.06l2.47-2.47H3a.75.75 0 010-1.5h16.19l-2.47-2.47a.75.75 0 010-1.06z" clip-rule="evenodd" />
+</svg> */}
+
 
 
 

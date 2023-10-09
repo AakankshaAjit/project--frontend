@@ -14,8 +14,8 @@ const Home = () => {
   return (
     <>
     <Header/>
-    <First/>
-    <Second/>
+    <First  />
+    <Second />
     <Third/>
     <Fourth/>
     <Fifth/>
